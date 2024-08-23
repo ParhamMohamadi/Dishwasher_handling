@@ -1,6 +1,10 @@
 # Dishwasher_handling
-This repo helps you handle dishwasher routine
+This repo helps you handle dishwasher routine.
 Check the example code for more insights.
+
+## Current version flowchart
+![Dishwasher routine flow cahrt](flowchart/Dishwasher routine.png)
+
 ## TODO:
 1. Adding dishes class.
 2. Adding user class.
