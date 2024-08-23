@@ -1,5 +1,5 @@
 # Dishwasher_handling
-This repo helps you handle dishwasher issues
+This repo helps you handle dishwasher routine
 
 ## TODO:
 1. Adding dishes class.
