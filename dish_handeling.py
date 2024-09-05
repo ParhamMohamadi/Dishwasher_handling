@@ -1,12 +1,13 @@
-class DishHandling:
-    def __init__(self, name):
+from dish_type import DishType
+
+class DishHandling(DishType):
+    def __init__(self, name, dish_type):
+        super().__init__(dish_type)
         self.name = name
         self.have_time = True
         self.washer_running = False
         self.washer_full = False
         self.inside_dirty_dishes = False
-
-        pass
 
     def put_clean_dished_in_cupboard(self):
         print(' Put clean dishes in cupboard')
@@ -21,7 +22,7 @@ class DishHandling:
         pass
 
     def place_dished_in_washer(self):
-        print(' Place {} in dish washer'.format(self.name))
+        print(' Place {} in {} of dish washer'.format(self.name, self.where_to_put()))
         pass
 
     def keep_dishes_with_yourself(self):
