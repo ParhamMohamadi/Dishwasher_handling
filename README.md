@@ -3,7 +3,7 @@ This repo helps you handle dishwasher routine.
 Check the example code for more insights.
 
 ## Current version flowchart
-![Dishwasher routine flow cahrt](flowchart/Dishwasher routine.png)
+![Dishwasher routine flow cahrt](flowchart/Dishwasher_routine.png)
 
 ## TODO:
 1. Adding dishes class.
