@@ -9,6 +9,7 @@ Check the example code for more insights.
 1. Adding dishes class.
 2. Adding user class.
 3. Adding documentation.
+4. Adding unit test
 
 ## Contributing
 
